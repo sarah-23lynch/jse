@@ -1,4 +1,4 @@
-package m02.s10;
+package m02.s07;
 
 public class Example {
 	public static void main(String[] args) {
