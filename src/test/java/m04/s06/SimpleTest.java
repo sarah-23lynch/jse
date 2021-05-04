@@ -12,6 +12,8 @@ import static org.hamcrest.CoreMatchers.startsWith;
 import static org.hamcrest.MatcherAssert.assertThat;
 import org.junit.jupiter.api.Test;
 
+import m03.s04.ex.Exercise;
+
 class SimpleTest {
     @Test
     void checkTrue() {
@@ -109,4 +111,14 @@ class SimpleTest {
         String actual = "Tom Jones";
         assertThat(actual, not(startsWith(prefix)));
     }
+    @Test
+	void toUpperPlain() {
+		Exercise ex = new Exercise();
+		String input = "gs657/$";
+		String actual = ex.toUpper(input);
+		String expected = "GS657/$";
+
+		assertThat(actual, equalTo(expected));
+
+	}
 }

@@ -7,8 +7,10 @@ public class Exercise4 {
      * @param celsius a temperature
      * @return temperature converted to Fahrenheit
      */
-    public static double toFahrenhein(double celsius) {
-        // TODO
-        return 0.0;
+    public static double toFahrenheit(double celsius) {
+        
+    	double Fahrenheit = (celsius * 1.8) +32;
+    	
+        return Fahrenheit;
     }
 }

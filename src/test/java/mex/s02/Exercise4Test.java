@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class Exercise4Test {
     @Test
     void testZeroCelsius() {
-        double actual = Exercise4.toFahrenhein(0);
+        double actual = Exercise4.toFahrenheit(0);
         double expected = 32;
 
         assertThat(actual, closeTo(expected, 0.000_001));
@@ -16,7 +16,7 @@ class Exercise4Test {
 
     @Test
     void testZeroFahrenheit() {
-        double actual = Exercise4.toFahrenhein(-17.777_778);
+        double actual = Exercise4.toFahrenheit(-17.777_778);
         double expected = 0;
 
         assertThat(actual, closeTo(expected, 0.000_001));

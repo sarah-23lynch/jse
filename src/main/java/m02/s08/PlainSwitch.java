@@ -2,7 +2,7 @@ package m02.s08;
 
 public class PlainSwitch {
     public static void main(String[] args) {
-        int value = 14554556;
+        int value = 1;
 
         // ...
 

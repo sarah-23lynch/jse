@@ -11,6 +11,9 @@ public class Exercise3 {
      */
     public static double engineCapacity(double bore, double stroke, int nr) {
         // TODO
-        return 0.0;
+    	double volume = 3.14 * (bore / 2)*(bore / 2)* stroke;
+    	double capacity= volume * nr; 
+    	
+        return capacity;
     }
 }
